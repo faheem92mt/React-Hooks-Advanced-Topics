@@ -1,4 +1,5 @@
 const url = 'https://api.github.com/users'
+
 import { useState, useEffect } from 'react'
 
 const FetchData = () => {
@@ -9,6 +10,7 @@ const FetchData = () => {
       try {
         const resp = await fetch(url)
         const data = await resp.json()
+        console.log(data)
         setUsers(data)
       } catch (error) {
         console.log(error)
