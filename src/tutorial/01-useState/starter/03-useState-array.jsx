@@ -10,7 +10,7 @@ const UseStateArray = () => {
     })
     setPeople(newPeople)
   }
-
+  //git
   return (
     <div>
       {people.map((person) => {
