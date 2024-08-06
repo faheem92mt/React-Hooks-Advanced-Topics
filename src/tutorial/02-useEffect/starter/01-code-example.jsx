@@ -6,7 +6,7 @@ const CodeExample = () => {
   const sayHello = () => {
     console.log('Hello')
   }
-
+  //git
   // the sayHello() function gets executed everytime setValue() is invoked
   // this happense because this function will get executed in each re-render
 
